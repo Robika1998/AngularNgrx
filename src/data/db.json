@@ -1,0 +1,74 @@
+{
+  "associate": [
+    {
+      "id": "1",
+      "name": "Ramesh Kumar",
+      "email": "ramesh@in.com",
+      "phone": "899089898",
+      "associategroup": "level1",
+      "address": "Street 5",
+      "type": "SUPPLIER",
+      "status": true
+    },
+    {
+      "id": "2",
+      "name": "makbar",
+      "email": "akbar@in.com",
+      "phone": "899089898",
+      "associategroup": "level1",
+      "address": "Streeet 66",
+      "type": "SUPPLIER",
+      "status": true
+    },
+    {
+      "id": "5",
+      "name": "Ramesh Kumar",
+      "email": "ramesh@inc.com",
+      "phone": "899089898",
+      "associategroup": "level2",
+      "address": "Strreee fjfjf",
+      "type": "SUPPLIER",
+      "status": true
+    },
+    {
+      "id": "8",
+      "name": "NT user",
+      "email": "nt@in.com",
+      "phone": "7899900",
+      "associategroup": "level2",
+      "address": "test",
+      "type": "SUPPLIER",
+      "status": true
+    },
+    {
+      "id": 0,
+      "name": "tyjtjyt",
+      "email": "jtjy@thrth",
+      "phone": "546546",
+      "associategroup": "level1",
+      "address": "ghrthrh",
+      "type": "CUSTOMER",
+      "status": true
+    },
+    {
+      "id": 0,
+      "name": "thrhtr",
+      "email": "rhtrt@rgrtrh",
+      "phone": "htrhr",
+      "associategroup": "level1",
+      "address": "thr",
+      "type": "CUSTOMER",
+      "status": true
+    },
+    {
+      "id": 0,
+      "name": "rthrhrhr",
+      "email": "thrth@regerg",
+      "phone": "rthrth",
+      "associategroup": "level1",
+      "address": "ghrthrh",
+      "type": "CUSTOMER",
+      "status": true
+    }
+  ]
+}
