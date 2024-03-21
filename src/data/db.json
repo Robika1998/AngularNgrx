@@ -11,16 +11,6 @@
       "status": true
     },
     {
-      "id": "2",
-      "name": "makbar",
-      "email": "akbar@in.com",
-      "phone": "899089898",
-      "associategroup": "level1",
-      "address": "Streeet 66",
-      "type": "SUPPLIER",
-      "status": true
-    },
-    {
       "id": "5",
       "name": "Ramesh Kumar",
       "email": "ramesh@inc.com",
@@ -68,6 +58,41 @@
       "associategroup": "level1",
       "address": "ghrthrh",
       "type": "CUSTOMER",
+      "status": true
+    }
+  ],
+  "user": [
+    {
+      "id": "c9a5",
+      "username": "qwwwwq",
+      "password": "123321",
+      "name": "fregergegr",
+      "email": "jtjy@thrth",
+      "phone": "546546",
+      "gender": "male",
+      "role": "user",
+      "status": true
+    },
+    {
+      "id": "33b3",
+      "username": "getrthrth",
+      "password": "123321",
+      "name": "rthrth",
+      "email": "jtjy@thrth",
+      "phone": "546546",
+      "gender": "male",
+      "role": "user",
+      "status": true
+    },
+    {
+      "id": "25bb",
+      "username": "robi123",
+      "password": "1234",
+      "name": "frgegregreg",
+      "email": "gerge@ergerg",
+      "phone": "546546",
+      "gender": "male",
+      "role": "user",
       "status": true
     }
   ]

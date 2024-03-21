@@ -19,6 +19,10 @@ import { AppEffects } from './Store/Common/App.Effects';
 import { RegisterComponent } from './component/register/register.component';
 import { LoginComponent } from './component/login/login.component';
 import { HomeComponent } from './component/home/home.component';
+import { UserReducer } from './Store/User/User.Reducer';
+import { UserEffect } from './Store/User/User.Effects';
+import { MenubarComponent } from './component/menubar/menubar.component';
+import { UserlistComponent } from './component/userlist/userlist.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +31,9 @@ import { HomeComponent } from './component/home/home.component';
     AddassociateComponent,
     RegisterComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    MenubarComponent,
+    UserlistComponent
   ],
   imports: [
     BrowserModule,
@@ -35,8 +41,8 @@ import { HomeComponent } from './component/home/home.component';
     MaterialModule,
     HttpClientModule,
     ReactiveFormsModule,
-    StoreModule.forRoot({associate: AssociateReducer}),
-    EffectsModule.forRoot([AssociateEffects, AppEffects]),
+    StoreModule.forRoot({associate: AssociateReducer, user: UserReducer}),
+    EffectsModule.forRoot([AssociateEffects, AppEffects, UserEffect]),
     // StoreRouterConnectingModule.forRoot(),
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: !isDevMode() })
   ],
