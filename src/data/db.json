@@ -22,7 +22,7 @@
     },
     {
       "id": "8",
-      "name": "NT user",
+      "name": "NT userhgfhfg",
       "email": "nt@in.com",
       "phone": "7899900",
       "associategroup": "level2",
@@ -31,32 +31,32 @@
       "status": true
     },
     {
-      "id": 0,
-      "name": "tyjtjyt",
-      "email": "jtjy@thrth",
-      "phone": "546546",
-      "associategroup": "level1",
-      "address": "ghrthrh",
-      "type": "CUSTOMER",
-      "status": true
-    },
-    {
-      "id": 0,
-      "name": "thrhtr",
-      "email": "rhtrt@rgrtrh",
-      "phone": "htrhr",
-      "associategroup": "level1",
-      "address": "thr",
-      "type": "CUSTOMER",
-      "status": true
-    },
-    {
-      "id": 0,
+      "id": "0",
       "name": "rthrhrhr",
-      "email": "thrth@regerg",
+      "email": "thrth@regergr",
       "phone": "rthrth",
-      "associategroup": "level1",
-      "address": "ghrthrh",
+      "associategroup": "level2",
+      "address": "rrrrr",
+      "type": "SUPPLIER",
+      "status": true
+    },
+    {
+      "id": 0,
+      "name": "fgfg",
+      "email": "thrth@regergr",
+      "phone": "0345345345",
+      "associategroup": "level3",
+      "address": "hrthrth",
+      "type": "SUPPLIER",
+      "status": false
+    },
+    {
+      "id": 0,
+      "name": "thrthr",
+      "email": "thrth@regergr",
+      "phone": "0345345345",
+      "associategroup": "level3",
+      "address": "rhtrh",
       "type": "CUSTOMER",
       "status": true
     }
@@ -92,8 +92,70 @@
       "email": "gerge@ergerg",
       "phone": "546546",
       "gender": "male",
+      "role": "manager",
+      "status": true
+    },
+    {
+      "id": "6f5a",
+      "username": "ewfwefwef",
+      "password": "12345",
+      "name": "rrrrrrrrrrdsf",
+      "email": "thrth@regergr",
+      "phone": "345345345",
+      "gender": "other",
       "role": "user",
       "status": true
+    }
+  ],
+  "role": [
+    {
+      "code": "admin",
+      "name": "Admin",
+      "id": "8c8b"
+    },
+    {
+      "code": "manager",
+      "name": "Manager",
+      "id": "d44d"
+    },
+    {
+      "code": "user",
+      "name": "User",
+      "id": "24a6"
+    }
+  ],
+  "menu": [
+    {
+      "code": "associate",
+      "Name": "assoociate",
+      "id": "f157"
+    },
+    {
+      "code": "user",
+      "Name": "User",
+      "id": "c602"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "associate",
+      "id": "2b59"
+    },
+    {
+      "role": "admin",
+      "menu": "user",
+      "id": "da07"
+    },
+    {
+      "role": "manager",
+      "menu": "associate",
+      "id": "664e"
+    },
+    {
+      "role": "user",
+      "menu": "associate",
+      "id": "e2e3"
     }
   ]
 }

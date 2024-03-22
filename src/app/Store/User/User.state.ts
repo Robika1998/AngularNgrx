@@ -13,6 +13,7 @@ export const UserState: UserModel = UserAdapter.getInitialState({
         email: '',
         name: '',
         role: '',
-        status: false
+        status: false,
+        length: 0
     }
 });

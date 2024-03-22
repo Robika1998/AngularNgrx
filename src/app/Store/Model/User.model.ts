@@ -17,6 +17,8 @@ export interface Usercred{
 }
 
 export interface Userinfo{
+    length: number;
+    // length: number;
     id:number,
     username:string,
     name:string,

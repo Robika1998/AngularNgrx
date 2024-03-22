@@ -23,6 +23,7 @@ import { UserReducer } from './Store/User/User.Reducer';
 import { UserEffect } from './Store/User/User.Effects';
 import { MenubarComponent } from './component/menubar/menubar.component';
 import { UserlistComponent } from './component/userlist/userlist.component';
+import { RolepopupComponent } from './component/rolepopup/rolepopup.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { UserlistComponent } from './component/userlist/userlist.component';
     LoginComponent,
     HomeComponent,
     MenubarComponent,
-    UserlistComponent
+    UserlistComponent,
+    RolepopupComponent
   ],
   imports: [
     BrowserModule,
